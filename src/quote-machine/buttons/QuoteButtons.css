@@ -1,0 +1,50 @@
+.buttons {
+    width: 450px;
+    margin: auto;
+    display: block;
+  }
+  
+  .button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    font-size: 1em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 1s linear;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+    color: #fff;
+  }
+  
+  .buttons .button {
+    color: #fff;
+  }
+  
+  #github-quote,
+  #linkedin-quote,
+  #tweet-quote {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.3em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+  }
+  
+  #new-quote {
+    float: right;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.1;
+  }
